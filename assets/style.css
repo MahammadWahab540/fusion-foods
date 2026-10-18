@@ -297,10 +297,11 @@ em {
 }
 
 .brand img {
-  width: 78px;
-  height: auto;
+  width: auto;
+  height: 48px;
+  max-width: 120px;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  display: block;
 }
 
 .brand-title {
@@ -1221,10 +1222,13 @@ em {
 }
 
 .footer .brand img {
+  width: auto;
+  height: 52px;
+  max-width: 130px;
   background-color: #ffffff;
-  padding: 4px;
-  border-radius: var(--radius-sm);
-  mix-blend-mode: normal;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  object-fit: contain;
   transition: transform var(--motion-fast) var(--ease-spring);
 }
 

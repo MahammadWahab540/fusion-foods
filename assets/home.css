@@ -387,10 +387,11 @@ em {
 }
 
 .brand img {
-  width: 148px;
-  height: auto;
+  width: auto;
+  height: 52px;
+  max-width: 130px;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  display: block;
 }
 
 .navigation {
@@ -1619,9 +1620,6 @@ em {
 
 .footer__brand .footer__logo-link {
   display: inline-block;
-  background-color: #ffffff;
-  padding: var(--space-xs);
-  border-radius: var(--radius-sm);
   margin-bottom: var(--space-md);
   transition: transform var(--motion-fast) var(--ease-spring);
 }
@@ -1631,8 +1629,13 @@ em {
 }
 
 .footer__brand img {
-  width: 140px;
-  height: auto;
+  width: auto;
+  height: 54px;
+  max-width: 140px;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
 }
 
 .footer__tagline {
