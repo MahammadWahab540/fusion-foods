@@ -387,8 +387,9 @@ em {
 }
 
 .brand img {
-  width: 140px;
+  width: 148px;
   height: auto;
+  object-fit: contain;
   mix-blend-mode: multiply;
 }
 
