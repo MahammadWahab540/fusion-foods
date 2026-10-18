@@ -1,0 +1,23 @@
+{
+  "name": "fusion-foods-website",
+  "version": "1.0.0",
+  "description": "Fusion Foods homepage and B2B partnership website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "keywords": [
+    "fusion-foods",
+    "website",
+    "potato-chips"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.151.1"
+  }
+}
